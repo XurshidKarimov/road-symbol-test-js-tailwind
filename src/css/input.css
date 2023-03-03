@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .welcoming-block__text{
+        color: theme('colors.sky.700');
+        font-size: theme(fontSize.4xl);
+        font-weight: theme('fontWeight.semibold');
+
+    }
+    .choose-transition{
+        transition: linear .3s;
+    }
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/css/output.css">
+    <title>Road Test</title>
+</head>
+<body class="relative h-screen flex justify-center items-center flex-col gap-y-7">
+    <div class="result w-fit p-4 ring-4 rounded-md">
+        <p class="howEnd text-center font-semibold text-6xl mb-10"></p>
+        <p class="text-center font-bold text-5xl mb-10">Your result:</p>
+        <p class="font-medium">Wrong answers: <span class="wrong"></span></p>
+        <p class="font-medium">Right answers: <span class="right"></span></p>
+    </div>
+
+    <button class="play p-4 ring ring-sky-700 rounded-md font-extrabold choose-transition hover:bg-sky-700 hover:text-white">Play again</button>
+
+
+    <script src="./ending.js"></script>
+</body>
+</html>

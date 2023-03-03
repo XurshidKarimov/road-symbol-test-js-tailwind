@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/output.css">
+    <title>Road Test</title>
+</head>
+<body class="h-screen flex justify-center items-center">
+    <div class="welcoming-block w-96 py-4 px-3 rounded-md ring-4">
+        <p class="welcoming-block__text text-center">Welcome to test</p>
+        <div class="welcoming-block__choose-block">
+            <p class="welcoming-block__choose-text text-center text-lg font-bold">Choose difficulty:</p>
+            <ul id="difficultyList" class="flex flex-col gap-y-3 p-3">
+                <li data-difficulty="easy" class="group relative py-5 text-center font-semibold rounded-md ring-1 bg-white cursor-pointer choose-transition hover:bg-sky-700 hover:text-white after:content-['In_easy_mode_to_you_will_be_given_8_minutes'] after:absolute after:top-0 after:left-0 after:hidden after:justify-center after:items-center after:rounded-md after:ring-1 after:w-full after:h-full after:bg-white  after:hover:flex after:hover:bg-sky-700 after:hover:text-white overflow-hidden">Easy</li>
+                <li data-difficulty="normal" class="group relative py-5 text-center font-semibold rounded-md ring-1 bg-white cursor-pointer choose-transition hover:bg-sky-700 hover:text-white after:content-['In_normal_mode_to_you_will_be_given_5_minutes'] after:absolute after:top-0 after:left-0 after:hidden after:justify-center after:items-center after:rounded-md after:ring-1  after:w-full after:h-full after:bg-white after:hover:flex after:hover:bg-sky-700 after:hover:text-white  overflow-hidden">Normal</li>
+                <li data-difficulty="hard" class="group relative py-5 text-center font-semibold rounded-md ring-1 bg-white cursor-pointer choose-transition hover:bg-sky-700 hover:text-white after:content-['In_hard_mode_to_you_will_be_given_3_minutes'] after:absolute after:top-0 after:left-0 after:hidden after:justify-center after:items-center after:rounded-md after:ring-1  after:w-full after:h-full after:bg-white after:hover:flex after:hover:bg-sky-700 after:hover:text-white  overflow-hidden">Hard</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+
+    <script type="module" src="index.js"></script>
+</body>
+</html>
